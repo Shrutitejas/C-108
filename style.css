@@ -1,0 +1,28 @@
+body{
+    background-color: blue;
+    font-family: "Special Elite", cursive;
+}
+.header{
+    background-color: hotpink;
+    color: blue;
+}
+.header p{
+    color: white;
+    letter-spacing: 2px;
+}
+.footer{
+    width : 100%;
+    background-color: antiquewhite;
+    text-align: center;
+    position : fixed;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 3;
+    text-shadow: 6px 5px 7px rgb(77, 74, 74);
+    letter-spacing: 2px;
+    font-family: 'Lobster', cursive;
+}
+#start-btn{
+    margin-top: 30px;
+    letter-spacing: 3px;
+}
