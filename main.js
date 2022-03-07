@@ -10,6 +10,12 @@ function gotResult(error, result){
         console.error(error);
     }
     else{
+        random_r = Math.floor(Math.random()* 255)+ 1;
+        random_g = Math.floor(Math.random()* 255)+ 1;
+        random_b = Math.floor(Math.random()* 255)+ 1;
+        document.getElementById("hearing").style.color = "rgb("+random_r+" , "+random_g+" , "+random_b+")";
+        document.getElementById("accuracy").style.color = "rgb("+random_r+" , "+random_g+" , "+random_b+")";
+
         document.getElementById("hearing").innerHTML = "I can hear-"+ result[0].label;
         document.getElementById("accuracy").innerHTML = "Accuracy-"+ result[0].confidence.toFixed(3);
 
